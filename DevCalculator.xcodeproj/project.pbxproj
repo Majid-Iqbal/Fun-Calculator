@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C13518E1DE9756B00F41C21 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1C13518D1DE9756B00F41C21 /* btn.wav */; };
+		1C5AC6801DE8AA9C0050ACFA /* angrybirds.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C5AC67F1DE8AA9C0050ACFA /* angrybirds.ttf */; };
 		1CC73C9E1D6E1869007FB0FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC73C9D1D6E1869007FB0FF /* AppDelegate.swift */; };
 		1CC73CA01D6E1869007FB0FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC73C9F1D6E1869007FB0FF /* ViewController.swift */; };
 		1CC73CA31D6E1869007FB0FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CC73CA11D6E1869007FB0FF /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C13518D1DE9756B00F41C21 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
+		1C5AC67F1DE8AA9C0050ACFA /* angrybirds.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = angrybirds.ttf; sourceTree = "<group>"; };
 		1CC73C9A1D6E1869007FB0FF /* DevCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CC73C9D1D6E1869007FB0FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CC73C9F1D6E1869007FB0FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 		1CC73C9C1D6E1869007FB0FF /* DevCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				1C5AC67F1DE8AA9C0050ACFA /* angrybirds.ttf */,
+				1C13518D1DE9756B00F41C21 /* btn.wav */,
 				1CC73C9D1D6E1869007FB0FF /* AppDelegate.swift */,
 				1CC73C9F1D6E1869007FB0FF /* ViewController.swift */,
 				1CC73CA11D6E1869007FB0FF /* Main.storyboard */,
@@ -125,6 +131,8 @@
 			files = (
 				1CC73CA81D6E1869007FB0FF /* LaunchScreen.storyboard in Resources */,
 				1CC73CA51D6E1869007FB0FF /* Assets.xcassets in Resources */,
+				1C13518E1DE9756B00F41C21 /* btn.wav in Resources */,
+				1C5AC6801DE8AA9C0050ACFA /* angrybirds.ttf in Resources */,
 				1CC73CA31D6E1869007FB0FF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +269,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DevCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = codebyte.DevCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,6 +282,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DevCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = codebyte.DevCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +309,7 @@
 				1CC73CAE1D6E1869007FB0FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
